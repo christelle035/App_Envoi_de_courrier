@@ -1,0 +1,62 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: limegreen;
+    font-weight: bold;
+    padding-top: 60px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.container{
+    margin-top: 30px;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    text-shadow: 1px 2 px 3px grey;
+}
+
+.container label{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container input, .container textarea {
+    border: 1px solid grey;
+}
+
+.container input[type="submit"]{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+
+p.comment-obligatoire{
+    color: green;
+    font-size: 20px;
+    font-style: italic;
+}
+
+p.comment-error{
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+}
+
+p.comment-success{
+    color: green;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+
+}
+
+span{
+    color: green;
+    margin: 5px;
+}
